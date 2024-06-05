@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Leo-Lsc/AutoData">
+  <a href="https://github.com/Leo-Lsc/AutoData.git">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -143,7 +143,10 @@ You should have at least one API key for a large language model, preferably from
    ``` -->
 
 ```sh
-   git clone https://github.com/Leo-Lsc/AutoData
+git clone https://github.com/Leo-Lsc/AutoData.git
+conda create -n AutoData python=3.11.8
+cd AutoData
+pip install -r requirements.text
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
