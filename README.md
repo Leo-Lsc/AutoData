@@ -153,6 +153,9 @@ pip install -r requirements.txt
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Overview -->
+## Overview
+AutoData is a framework that uses the LangChain library and OpenAI's API to automatically construct customized datasets. Based on the divide-and-conquer approach, the construction pipeline is divided into eight subtasks: Topic Collection, Subject Generation, The First QA Pair (QA1) Generation, The First Factual Triple (T1) Extraction, The Second QA Pair (QA2) Generation, The Second Factual Triple (T2) Extraction, Interrupting, and Two-hop Question Generation.
 
 
 <!-- USAGE EXAMPLES -->
