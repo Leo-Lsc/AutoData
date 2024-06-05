@@ -85,16 +85,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+The data stored in large language models (LLMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods have been developed to inject new knowledge. Current methods mostly perform well in editing individual facts, but they encounter catastrophic failures when tested on the ripple effects caused by editing a single fact.
+If we edit the information to state that the current President of the USA is Trump, then the answer to "Who is married to Trump?" should also change accordingly. 
+While many datasets for evaluating knowledge editing of LMs exist, they predominantly focus on common facts from Wikidata, primarily relating to people and events. I found that when using this dataset to pose counterfactual questions to the
+model, it would refuse to respond due to reasons such as political sensitivity. Therefore, I implemented
+a framework AutoData that can construct structured datasets for assessing knowledge editing or multi-hop reasoning capability of LMs. This approach inherently avoids the timeconsuming nature of manual data collection and the sensitivity of event-based data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
