@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods, e.g. LoRA, ROME, MEND, MEMIT, SERAC, IKE, have been developed to inject new knowledge. Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge.
 For example, if we edit the information to state that the current President of the USA is Trump, then the answer to "Who is married to Trump?" should also change accordingly. 
@@ -93,7 +93,7 @@ While many datasets for evaluating knowledge editing of LMs exist, they predomin
 
 
 
-### Built With
+<!-- ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -113,16 +113,16 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+<!-- This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
+
+
+You should have at least one API key for a large language model, preferably from [OpenAI](https://openai.com/index/openai-api/). 
 
 ### Installation
 
