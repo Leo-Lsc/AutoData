@@ -146,7 +146,7 @@ You should have at least one API key for a large language model, preferably from
 git clone https://github.com/Leo-Lsc/AutoData.git
 conda create -n AutoData python=3.11.8
 cd AutoData
-pip install -r requirements.text
+pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,7 +154,7 @@ pip install -r requirements.text
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Use AutoData
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
