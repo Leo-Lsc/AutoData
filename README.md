@@ -37,7 +37,7 @@
   <h3 align="center">AutoData</h3>
 
   <p align="center">
-    An Automated Framework to Construct Structured Datasets for Assessing Knowledge Editing or Multi-Hop Reasoning Capability of Language Models.
+    An Automated Framework to Construct Datasets for Assessing Knowledge Editing or Multi-Hop Reasoning Capability of Language Models.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
