@@ -85,9 +85,11 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods, e.g. LoRA, ROME, MEND, MEMIT, SERAC, IKE, have been developed to inject new knowledge. Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge.
+The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods (e.g. LoRA, ROME, MEND, MEMIT, SERAC, IKE) have been developed to inject new knowledge. Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge.
 For example, if we edit the information to state that the current President of the USA is Trump, then the answer to "Who is married to Trump?" should also change accordingly. 
-While many datasets for evaluating knowledge editing of LMs exist, they predominantly focus on facts from Wikidata, primarily relating to people and events. Besides, these datasets are mostly constructed through manual collection, crowdsourcing, and other methods. This kind of pipeline of dataset construction results in the homogeneity of the collected data, and the process is time-consuming and costly. Therefore, I implemented a framework, AutoData, that can automatically construct datasets containing various types of data based on specific needs.
+While many datasets for evaluating knowledge editing of LMs exist, they predominantly focus on facts from Wikidata, primarily relating to people and events. 
+In other words, the data in these datasets is homogeneous and lacks diversity.
+Besides, This type of dataset construction pipeline often inevitably involves parts such as manual annotation and crowdsourcing, leading to significant time and economic costs. Therefore, I implemented a framework, AutoData, that can automatically construct datasets containing various types of data based on specific needs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
