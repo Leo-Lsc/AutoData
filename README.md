@@ -124,9 +124,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 You should have at least one API key for a large language model, preferably from [OpenAI](https://openai.com/index/openai-api/). 
 
-### Installation
+### Pip Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<!-- Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -140,6 +140,10 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
+   ``` -->
+
+```sh
+   git clone https://github.com/Leo-Lsc/AutoData
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
