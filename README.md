@@ -54,9 +54,11 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods (e.g. [SERAC](https://github.com/eric-mitchell/serac), [IKE](https://github.com/Zce1112zslx/IKE), [MEND](https://github.com/eric-mitchell/mend), [KE](https://github.com/Hunter-DDM/knowledge-neurons), [ROME](https://github.com/kmeng01/rome), [MEMIT](https://github.com/kmeng01/memit), [FT-L](https://github.com/kmeng01/rome)) have been developed to inject new knowledge. Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge.
-For example, if we edit the information to state that the current President of the USA is Trump, then the answer to "Who is married to Trump?" should also change accordingly. 
-While many datasets for evaluating knowledge editing of LMs exist, they predominantly focus on facts from Wikidata, primarily relating to people and events. 
+The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods (e.g. [SERAC](https://github.com/eric-mitchell/serac), [IKE](https://github.com/Zce1112zslx/IKE), [MEND](https://github.com/eric-mitchell/mend), [KE](https://github.com/Hunter-DDM/knowledge-neurons), [ROME](https://github.com/kmeng01/rome), [MEMIT](https://github.com/kmeng01/memit), [FT-L](https://github.com/kmeng01/rome)) have been developed to inject new knowledge. 
+
+Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge. For example, if we edit the information to state that the current President of the USA is Trump, then the answer to "Who is married to Trump?" should also change accordingly. 
+While many datasets for evaluating knowledge editing of LMs exist, they predominantly focus on facts from Wikidata, primarily relating to people and events.
+ 
 In other words, the data in these datasets is homogeneous and lacks diversity.
 Besides, This type of dataset construction pipeline often inevitably involves parts such as manual annotation and crowdsourcing, leading to significant time and economic costs. Therefore, I implemented a framework, AutoData, that can automatically construct datasets containing various types of data based on specific needs.
 
