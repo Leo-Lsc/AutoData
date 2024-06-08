@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.prompts.few_shot import FewShotPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from prompt import triple_generation_examples
+from .prompt import triple_generation_examples
 
 model2 = ChatOpenAI(openai_api_key="your-api-key", model="gpt-3.5-turbo")
 

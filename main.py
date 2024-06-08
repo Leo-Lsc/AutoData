@@ -1,5 +1,4 @@
 from autodata import SubjectGenerator, QA_Generator, TripleExtractor, Interrupter, TwoHopQuestionGenerator
-# sk-proj-nKP9Oa4IjMdT80dnT4N3T3BlbkFJCTDePQs5s2dqeW5lyC8B
 
 def subject_generation(field, thing, subject_number):
     subject_generator = SubjectGenerator(field, thing, subject_number)
@@ -39,10 +38,10 @@ def main(first_subject, question_type):
     first_QA = QA_generation(first_subject, question_type)
     first_question = first_QA["question"]
     first_answer = first_QA["answer"]
-    first_triple = triple_extraction(first_subject, first_question, first_answer)
+    first_triple = triple_extraction(first_subject, first_question, first_answer).split("\n")[-1]
     first_relation = return_element(first_triple, 1)
 
-    second_QA = QA_generation(first_answer)
+    second_QA = QA_generation(first_answer, question_type)
     second_question = second_QA["question"]
     second_answer = second_QA["answer"]
     second_triple = triple_extraction(first_answer, second_question, second_answer).split("\n")[-1]
@@ -52,9 +51,9 @@ def main(first_subject, question_type):
     single_hop_target_new = return_element(interrupted_triple, 0)
     two_hop_target_new = return_element(interrupted_triple, 2)
 
-    two_hop_question = two_hop_question_generation(first_triple, second_triple)
+    two_hop_question = two_hop_question_generation(first_triple, second_triple).split("\n")[-1]
 
-    return {"single_hop_prompt": first_question, "entity": first_subject, "relation": first_relation, "two_hop_question": two_hop_question, 
+    return {"single_hop_prompt": first_question, "first_entity": first_subject, "first_relation": first_relation, "two_hop_question": two_hop_question, 
             "target_true": {"single_hop_target_true": first_answer, "two_hop_target_true": second_answer},
             "target_new": {"single_hop_target_new":  single_hop_target_new, "two_hop_target_new": two_hop_target_new}}
 
@@ -64,7 +63,7 @@ if __name__ == "__main__":
     field = "history" # replace this with the field of knowledge, e.g. "history", "biology"
     thing = "events" # replace this with the type of subjects, e.g. "events", "chemical compounds"
     subject_number = 1 # replace this with the number of subjects to generate
-    question_type = "replace this with the type of question" # e.g. "scientific"
+    question_type = "historical" # replace this with the type of question, e.g. "scientific"
 
     first_subjects = subject_generation(field, thing, subject_number)
     for first_subject in first_subjects:

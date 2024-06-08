@@ -40,9 +40,14 @@ Which primary digestive enzyme is produced by the same organ in the human body t
 ]
 
 rewrite_examples = [
-#     {
-#         "triples": "(USA, president, Biden)",
-#         "subject": "USA",
-#         "answer": '''
-# (USA, president, Trump)'''},
+    {
+        "triple": "(Michael Jordan, Nation, USA)",
+        "subject": "Michael Jordan",
+        "relation": "Nation",
+        "response": '''
+To evaluate if there is a new subject that can also perfectly match the relation "Nation," we need to find another individual whose nation is also known. 
+Given the fact triple (Michael Jordan, Nation, USA), a new triple with a different subject that has the relation "Nation" and a correct new answer is:
+
+(Lionel Messi, Nation, Argentina)
+'''},
 ]
