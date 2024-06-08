@@ -128,12 +128,20 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<!-- Contributors -->
 ## Contributors
+
+We thank all the contributors to this project, more contributors are welcome!
 
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Leo-Lsc"><img src="https://avatars.githubusercontent.com/u/124846947?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /><sub><b>Leo-Lsc</b></sub></a></td>
+    <td align="center">
+      <a href="https://github.com/Leo-Lsc">
+        <img src="https://avatars.githubusercontent.com/u/124846947?v=4" width="50px;" height="50px" style="border-radius: 50%;" alt="Leo-Lsc"/>
+        <br />
+        <sub><b>Leo-Lsc</b></sub>
+      </a>
+    </td>
   </tr>
 </table>
+
