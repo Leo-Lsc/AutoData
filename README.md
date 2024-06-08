@@ -116,9 +116,7 @@ AutoData is a framework that uses the LangChain library and OpenAI's API to auto
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. Any contributions you make are **greatly appreciated**. Don't forget to give the project a star! Thanks!
 
 <!-- Contributors -->
 ## Contributors
