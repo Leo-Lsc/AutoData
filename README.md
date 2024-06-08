@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 <!-- Overview -->
 ## Overview
-AutoData is a framework that uses the LangChain library and OpenAI's API to automatically construct customized datasets. AutoData consists of five modules: [SubjectGenerator](autodata\subject_generator.py), [QA_Generator](autodata\QA_generator.py), [TripleExtractor](autodata\triple_extractor.py), [Interrupter](autodata\interruputer.py) and [TwoHopQuestionGenerator](autodata\two_hop_question_generator.py).
+AutoData is a framework that uses the LangChain library and OpenAI's API to automatically construct customized datasets. AutoData consists of five modules: [SubjectGenerator](https://github.com/Leo-Lsc/AutoData/blob/main/autodata/subject_generator.py), [QA_Generator](https://github.com/Leo-Lsc/AutoData/blob/main/autodata/QA_generator.py), [TripleExtractor](https://github.com/Leo-Lsc/AutoData/blob/main/autodata/triple_extractor.py), [Interrupter](https://github.com/Leo-Lsc/AutoData/blob/main/autodata/interruputer.py) and [TwoHopQuestionGenerator](https://github.com/Leo-Lsc/AutoData/blob/main/autodata/two_hop_question_generator.py).
 
 <!-- USAGE EXAMPLES -->
 <!-- ## Use AutoData
