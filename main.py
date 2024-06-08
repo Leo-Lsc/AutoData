@@ -1,3 +1,9 @@
+import sys
+import os
+
+project_root = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(project_root)
+
 from autodata import SubjectGenerator, QA_Generator, TripleExtractor, Interrupter, TwoHopQuestionGenerator
 
 def subject_generation(field, thing, subject_number):
