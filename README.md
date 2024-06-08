@@ -131,8 +131,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- Contributors -->
 ## Contributors
 
-We thank all the contributors to this project, more contributors are welcome!
-
 <!-- prettier-ignore -->
 <table>
   <tr>
