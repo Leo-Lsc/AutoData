@@ -43,7 +43,6 @@
     </li>
     <li><a href="#overview">Overview</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -120,13 +119,6 @@ AutoData is a framework that uses the LangChain library and OpenAI's API to auto
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- Contributors -->
 ## Contributors
