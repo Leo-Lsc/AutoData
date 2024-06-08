@@ -33,23 +33,17 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#pip-installation">Pip-Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#overview">Overview</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -60,7 +54,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods (e.g. LoRA, ROME, MEND, MEMIT, SERAC, IKE) have been developed to inject new knowledge. Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge.
+The data stored in language models (LMs) quickly becomes obsolete, and retraining these models from the ground up is often not feasible. Recently, various methods (e.g. [SERAC](https://github.com/eric-mitchell/serac), [IKE](https://github.com/Zce1112zslx/IKE), [MEND](https://github.com/eric-mitchell/mend), [KE](https://github.com/Hunter-DDM/knowledge-neurons), [ROME](https://github.com/kmeng01/rome), [MEMIT](https://github.com/kmeng01/memit), [FT-L](https://github.com/kmeng01/rome)) have been developed to inject new knowledge. Current methods mostly perform well in editing single atom facts, but they encounter catastrophic failures when tested on the ripple effects caused by the edited knowledge.
 For example, if we edit the information to state that the current President of the USA is Trump, then the answer to "Who is married to Trump?" should also change accordingly. 
 While many datasets for evaluating knowledge editing of LMs exist, they predominantly focus on facts from Wikidata, primarily relating to people and events. 
 In other words, the data in these datasets is homogeneous and lacks diversity.
@@ -110,7 +104,7 @@ pip install -r requirements.txt
 
 <!-- Overview -->
 ## Overview
-AutoData is a framework that uses the LangChain library and OpenAI's API to automatically construct customized datasets. the construction pipeline is divided into eight subtasks: Topic Collection, Subject Generation, The First QA Pair (QA1) Generation, The First Factual Triple (T1) Extraction, The Second QA Pair (QA2) Generation, The Second Factual Triple (T2) Extraction, Interrupting, and Two-hop Question Generation.
+AutoData is a framework that uses the LangChain library and OpenAI's API to automatically construct customized datasets. AutoData consists of five modules: [SubjectGenerator](autodata\subject_generator.py), [QA_Generator](autodata\QA_generator.py), [TripleExtractor](autodata\triple_extractor.py), [Interrupter](autodata\interruputer.py) and [TwoHopQuestionGenerator](autodata\two_hop_question_generator.py).
 
 <!-- USAGE EXAMPLES -->
 <!-- ## Use AutoData
