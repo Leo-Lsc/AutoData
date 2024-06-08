@@ -75,7 +75,7 @@ Besides, This type of dataset construction pipeline often inevitably involves pa
   ``` -->
 
 
-You should have at least one API key for a large language model, preferably from [OpenAI](https://openai.com/index/openai-api/). 
+You should have at least one API key from a large language model, preferably from [OpenAI](https://openai.com/index/openai-api/). 
 
 ### Pip Installation
 
