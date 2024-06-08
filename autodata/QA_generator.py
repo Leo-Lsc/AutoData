@@ -33,5 +33,3 @@ class QA_Generator:
 # if __name__ == "__main__":
 #     QA_genrator = QA_Generator("Benzene", "scientific")
 #     print(QA_genrator.generate())
-
-

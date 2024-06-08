@@ -46,7 +46,3 @@ class TripleExtractor:
 #     {'question': 'What is the primary industrial source for synthesizing benzene?', 'answer': 'Crude oil'}
 #     triple_extractor = TripleExtractor("Benzene", "What is the primary industrial source for synthesizing benzene?", "Crude oil")
 #     print(triple_extractor.extract())
-
-
-
-

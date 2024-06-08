@@ -59,7 +59,7 @@ def main(first_subject, question_type):
 
     two_hop_question = two_hop_question_generation(first_triple, second_triple).split("\n")[-1]
 
-    return {"single_hop_prompt": first_question, "first_entity": first_subject, "first_relation": first_relation, "two_hop_question": two_hop_question, 
+    return {"single_hop_prompt": first_question, "first_subject": first_subject, "first_relation": first_relation, "two_hop_prompt": two_hop_question, 
             "target_true": {"single_hop_target_true": first_answer, "two_hop_target_true": second_answer},
             "target_new": {"single_hop_target_new":  single_hop_target_new, "two_hop_target_new": two_hop_target_new}}
 

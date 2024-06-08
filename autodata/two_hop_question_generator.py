@@ -36,4 +36,3 @@ class TwoHopQuestionGenerator:
 # if __name__ == "__main__":
 #     two_hop_question_generator = TwoHopQuestionGenerator("(Benzene, Common product made by hydrogenating, Cyclohexane)", "(Cyclohexane, exhibits as primary molecular shape at room temperature, Chair conformation)")
 #     print(two_hop_question_generator.generate())
-

@@ -26,8 +26,5 @@ class SubjectGenerator:
         return chain.invoke({"field": self.field, "thing": self.thing, "subject_number": self.subject_number})
 
 # if __name__ == "__main__":
-#     subject_genrator = SubjectGenerator("history", "historical events", 2)
+#     subject_genrator = SubjectGenerator("history", "historical events", 1)
 #     print(subject_genrator.generate())
-
-
-
