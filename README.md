@@ -134,4 +134,16 @@ If you have a suggestion that would make this better, please fork the repo and c
   </tr>
 </table>
 
+## Citation
 
+Please use the following citation if you intend to use **AutoData**:
+```sh
+@misc{AutoDataFramework,
+  title={AutoData},
+  author={Sicheng Lai},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Leo-Lsc/AutoData}},
+}
+   ```
